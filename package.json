@@ -1,0 +1,30 @@
+{
+  "name": "bardsung-tracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@material/mwc-button": "^0.27.0",
+    "@material/mwc-checkbox": "^0.27.0",
+    "@material/mwc-slider": "^0.27.0",
+    "@material/mwc-textarea": "^0.27.0",
+    "@material/mwc-textfield": "^0.27.0",
+    "@vaadin/router": "^1.7.4",
+    "lit": "^2.4.1",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
