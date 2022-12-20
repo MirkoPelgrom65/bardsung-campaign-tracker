@@ -42,7 +42,7 @@ export function defaultData() {
                     new Goal('Completed chapter', 1, '3XP', false),
                 ],
                 3),
-            new Chapter(3, 'The Crypt', 
+            new Chapter(3, 'The Crypt!', 
                 [
                     new Encounter('3A', 'Hidden tunnen', false), 
                     new Encounter('3B', 'Standard crawl', false), 
